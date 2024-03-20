@@ -6,7 +6,7 @@ function List({ data }) {
     <div>
       {data?.map((d) => {
         return (
-          <div className="d-flex align-items-center my-1">
+          <div key={d} className="d-flex align-items-center my-1">
             <div className={styles.circle_bullet}></div>
             <p> {d} </p>
           </div>
