@@ -38,19 +38,20 @@ function AboutUs() {
             At our Fulmar Marine Services, we envision a maritime industry
             revolutionized by seamless provisions and unparalleled service. We
             aim to be the beacon of reliability, offering an extensive array of
-            quality supplies and services tailored to every vessel's unique
-            requirements. Our vision transcends mere transactions; it's about
-            fostering enduring partnerships built on trust, efficiency, and
-            innovation. We strive to set new standards, integrating cutting-edge
-            technology and sustainable practices into our operations, ensuring
-            not only the efficiency of deliveries but also the preservation of
-            our oceans. Through strategic alliances and a global network, we
-            aspire to reach every corner of the maritime world, providing
-            timely, dependable solutions that empower vessels to navigate with
-            confidence. Ultimately, our vision is to redefine ship supply,
-            becoming the indispensable ally of every ship, where our commitment
-            to excellence and dedication to customer satisfaction become
-            synonymous with the smooth sailing of maritime endeavors worldwide.
+            quality supplies and services tailored to every vessel&apos;s unique
+            requirements. Our vision transcends mere transactions; it&apos;s
+            about fostering enduring partnerships built on trust, efficiency,
+            and innovation. We strive to set new standards, integrating
+            cutting-edge technology and sustainable practices into our
+            operations, ensuring not only the efficiency of deliveries but also
+            the preservation of our oceans. Through strategic alliances and a
+            global network, we aspire to reach every corner of the maritime
+            world, providing timely, dependable solutions that empower vessels
+            to navigate with confidence. Ultimately, our vision is to redefine
+            ship supply, becoming the indispensable ally of every ship, where
+            our commitment to excellence and dedication to customer satisfaction
+            become synonymous with the smooth sailing of maritime endeavors
+            worldwide.
           </p>
           <h3 className="mt-4 mb-3">MISSION</h3>
           <p>
@@ -96,7 +97,7 @@ function AboutUs() {
                 support and provision delivery around the clock. Through these
                 commitments, we aim to be the preferred partner, supporting
                 vessels in their journeys, and contributing positively to the
-                maritime industry's advancement."
+                maritime industry&apos;s advancement.
               </li>
             </ul>
           </p>
