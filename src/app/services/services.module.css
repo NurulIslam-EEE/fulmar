@@ -1,0 +1,50 @@
+/* .circle {
+  height: 25px;
+  width: 25px;
+  background-color: #0066a6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 10px;
+} */
+
+.services p {
+  margin-bottom: 0;
+  font-size: 25px;
+}
+.services h2 {
+  margin: 0;
+  color: #0066a6;
+  margin-left: 5px;
+}
+.services h5 {
+  margin: 0;
+  margin-left: 15px;
+}
+
+.circle_bullet {
+  height: 12px;
+  width: 12px;
+  border-radius: 2px;
+  border: 1px solid black;
+  margin-right: 8px;
+}
+.circle img {
+  width: 25px;
+  margin-right: 10px;
+}
+.service_img {
+  width: 50%;
+}
+.service_img img {
+  width: 100%;
+}
+
+/* .services h5 {
+  margin: 10px 0;
+} */
+.services h5:hover {
+  color: #0066a6;
+}

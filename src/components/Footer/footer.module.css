@@ -1,0 +1,110 @@
+.footerwrapper {
+  width: 100%;
+  /* background: #0066a6; */
+  /* background: #304146; */
+  background: url(../../../public/images/footerBg.jpg);
+  /* min-height: 200px; */
+  height: fit-content;
+}
+
+/* top left repeat */
+
+.footer {
+  height: fit-content;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.footer .address {
+  /* height: 30px; */
+  padding: 10px 0 10px 0;
+  color: white;
+  width: 100%;
+  background: url(http://adamallys.com/images/footer-border-bottom.jpg) bottom
+    left repeat-x;
+}
+.footer .address p {
+  font-size: 14px;
+  color: #676767;
+  color: white;
+  /* line-height: 12px; */
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+.footer .address p span {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.icon {
+  color: #676767;
+  color: white;
+}
+
+.footer .contact {
+  font-size: 11px;
+  color: #676767;
+  color: white;
+
+  padding: 5px 18px 0 0;
+}
+
+.footer .copyright {
+  font-size: 15px;
+  color: #9e9e9e;
+  color: white;
+  margin: 7px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social_container {
+  /* border: 2px solid #676767a6; */
+  border: 2px solid white;
+  background: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+  /* color: white; */
+  color: #0066a6;
+  transition: 0.8s;
+}
+
+.social_container:hover {
+  color: white;
+  background: transparent;
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+
+@media (max-width: 720px) {
+  .footer .copyright {
+    flex-direction: column;
+  }
+  .footer .copyright p {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .social {
+    margin-top: 2px;
+  }
+  .footer .address p {
+    /* margin-bottom: 12px; */
+  }
+  .footer .address {
+    /* height: 30px; */
+    padding: 5px 0 10px 0;
+  }
+}

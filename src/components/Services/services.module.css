@@ -1,0 +1,7 @@
+.circle_bullet {
+  height: 12px;
+  width: 12px;
+  border-radius: 2px;
+  border: 1px solid black;
+  margin-right: 8px;
+}

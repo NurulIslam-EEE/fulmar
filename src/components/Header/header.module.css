@@ -1,0 +1,45 @@
+.header {
+  /* height: 100px; */
+
+  /* background: #014e96; */
+  background: white;
+  /* position: fixed;
+  top: 0;
+  z-index: 7; */
+  padding: 20px 0;
+}
+.header .icon {
+  color: #676767;
+  font-size: 12px;
+  margin-right: 4px;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .logo img {
+  width: 240px;
+}
+
+.header .content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  /* padding-bottom: 15px; */
+}
+.contactinfo p {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  /* font-weight: 800; */
+}
+
+@media only screen and (max-width: 600px) {
+  .header .logo img {
+    width: 180px;
+  }
+}
