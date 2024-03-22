@@ -17,6 +17,9 @@ function page() {
     "Tinned Fish, Fruits, Vegetables",
     "Jam & Marmalade",
     "Spices & Herbs",
+  ];
+
+  const data2 = [
     "Fresh Water, Mineral Water",
     "Coffee, Tea, Chocolate",
     "Pickles, Western & Orientals",
@@ -38,6 +41,7 @@ function page() {
         data={{
           title: "1.1 PROVISION STORES",
           content: data,
+          content2: data2,
           img: "/images/PROVISION SUPPLY CHITTAGONG.jpg",
         }}
       />

@@ -87,12 +87,12 @@ OTHER SERVICES */}
               <p> Cabin Store & Safety Equipment</p>
             </Link>
 
-            <Link href="/services/deck-&-engine-stores">
+            <Link href="/services/hardware-tools-rope-&-lifting-tackles">
               {" "}
               <p> Hardware Tools, Rope & Lifting Tackles</p>
             </Link>
 
-            <Link href="/services/deck-&-engine-stores">
+            <Link href="/services/marine-paints-&-chemicals">
               {" "}
               <p>Marine Paints & Chemicals</p>
             </Link>

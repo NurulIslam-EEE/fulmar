@@ -18,6 +18,11 @@ function page() {
     "Cutting Tools",
     "Pilot’s Ladder, Gangway",
     "Pipes, Tubes & Fittings",
+
+    "",
+  ];
+
+  const data2 = [
     "Valves & Cocks",
     "Governors, Hydraulics",
     "Separators",
@@ -31,7 +36,6 @@ function page() {
     "Cylinder Head & Equipment",
     "Liner, Piston, Filter",
     "Gasket, O-ring",
-    "",
   ];
   return (
     <div className="container">
@@ -40,6 +44,7 @@ function page() {
         data={{
           title: "1.2 Deck & Engine Stores",
           content: data,
+          content2: data2,
           img: "/images/DECK STORE AND ENGINE STORE CHITTAGONG.jpg",
         }}
       />

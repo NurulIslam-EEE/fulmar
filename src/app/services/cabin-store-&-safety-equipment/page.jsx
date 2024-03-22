@@ -16,6 +16,9 @@ function page() {
     "Soaps & Detergents",
     "Coffee Maker, Blender, Toaster",
     "Life Rafts, Lifejackets, Lifebuoys",
+  ];
+
+  const data2 = [
     "Fire & Immersion Suits",
     "Pyrotechnics",
     "Fire Extinguishers & Foams",
@@ -36,6 +39,7 @@ function page() {
         data={{
           title: "1.3 CABIN STORE & SAFETY EQUIPMETS",
           content: data,
+          content2: data2,
           img: "/images/Cabin Store and Safety Equipment Chittagong.jpg",
         }}
       />
