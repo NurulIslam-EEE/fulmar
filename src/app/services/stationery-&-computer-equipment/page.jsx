@@ -8,12 +8,13 @@ function page() {
   return (
     <div className="container">
       <Navigation />
+
       <SingleService
         data={{
-          title: "1.4 Hardware Tools, Rope & Lifting Tackles",
+          title: "1.6 Hardware Tools, Rope & Lifting Tackles",
           content: data,
           content2: data2,
-          img: "/images/Hardware tools rope and lifing tackles chittagong.jpg",
+          img: "/images/Stationnery and computer equipment chittagong.jpg",
         }}
       />
     </div>

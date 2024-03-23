@@ -6,6 +6,7 @@ import Banner from "@/components/Banner/Banner";
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import Headline from "@/components/Services/Headline";
 import List from "@/components/Services/List";
+import Link from "next/link";
 
 function Services() {
   return (
@@ -177,15 +178,27 @@ function Services() {
             <div className={styles.circle}>
               <img src="/images/bullet.png" alt="" />
             </div>{" "}
-            <h5> Provision Stores</h5>
+            <h5 className={styles.title}>
+              {" "}
+              <Link href="/services/provision-stores">
+                {" "}
+                Provision Stores
+              </Link>{" "}
+            </h5>
           </div>
+
           <div className="d-flex align-items-center my-2">
             {" "}
             <div className={styles.circle}>
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5> Deck & Engine Stores</h5>
+            <h5>
+              <Link href="/services/provision-stores">
+                {" "}
+                Deck & Engine Stores{" "}
+              </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center">
             {" "}
@@ -193,7 +206,12 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>{" "}
-            <h5> Stationery & Computer Equipment</h5>
+            <h5>
+              <Link href="/services/provision-stores">
+                {" "}
+                Stationery & Computer Equipment{" "}
+              </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center my-2">
             {" "}
@@ -201,7 +219,12 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5> Medical Store & Hospital Equipment</h5>
+            <h5>
+              <Link href="/services/provision-stores">
+                {" "}
+                Medical Store & Hospital Equipment{" "}
+              </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center my-2">
             {" "}
@@ -209,7 +232,12 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5> Cabin Store & Safety Equipment</h5>
+            <h5>
+              <Link href="/services/provision-stores">
+                {" "}
+                Cabin Store & Safety Equipment{" "}
+              </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center">
             {" "}
@@ -217,7 +245,12 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5> Hardware Tools, Rope & Lifting Tackles</h5>
+            <h5>
+              <Link href="/services/provision-stores">
+                {" "}
+                Hardware Tools, Rope & Lifting Tackles{" "}
+              </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center my-2">
             {" "}
@@ -225,7 +258,11 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5>Marine Paints & Chemicals</h5>
+            <h5>
+              <Link href="/services/provision-stores">
+                Marine Paints & Chemicals{" "}
+              </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center my-2">
             {" "}
@@ -233,7 +270,11 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5>Sludge & Garbage Disposal</h5>
+            <h5>
+              <Link href="/services/provision-stores">
+                Sludge & Garbage Disposal{" "}
+              </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center my-2">
             {" "}
@@ -241,7 +282,9 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5>Tank Cleaning</h5>
+            <h5>
+              <Link href="/services/provision-stores">Tank Cleaning </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center my-2">
             {" "}
@@ -249,7 +292,9 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5>Hatch Cleaning </h5>
+            <h5>
+              <Link href="/services/provision-stores">Hatch Cleaning </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center my-2">
             {" "}
@@ -257,7 +302,9 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5>Hatch Cover Repair</h5>
+            <h5>
+              <Link href="/services/provision-stores">Hatch Cover Repair </Link>
+            </h5>
           </div>
           <div className="d-flex align-items-center my-2">
             {" "}
@@ -265,7 +312,11 @@ function Services() {
               {" "}
               <img src="/images/bullet.png" alt="" />
             </div>
-            <h5>Chipping & Painting</h5>
+            <h5>
+              <Link href="/services/provision-stores">
+                Chipping & Painting{" "}
+              </Link>
+            </h5>
           </div>
         </div>
       </div>

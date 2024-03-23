@@ -97,22 +97,22 @@ OTHER SERVICES */}
               <p>Marine Paints & Chemicals</p>
             </Link>
 
-            <Link href="/services/deck-&-engine-stores">
+            <Link href="/services/stationery-&-computer-equipment">
               {" "}
               <p> Stationery & Computer Equipment</p>
             </Link>
 
-            <Link href="/services/deck-&-engine-stores">
+            <Link href="/services/medical-store-&-hospital-equipment">
               {" "}
               <p> Medical Store & Hospital Equipment</p>
             </Link>
 
-            <Link href="/services/deck-&-engine-stores">
+            <Link href="/services/pneumatic-tools">
               {" "}
               <p>Pneumatic Tools</p>
             </Link>
 
-            <Link href="/services/deck-&-engine-stores">
+            <Link href="/services/other-services">
               {" "}
               <p> Other Services</p>
             </Link>

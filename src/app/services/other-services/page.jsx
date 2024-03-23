@@ -3,17 +3,24 @@ import SingleService from "@/components/Services/SingleService";
 import React from "react";
 
 function page() {
-  const data = [];
+  const data = [
+    "Sludge & Slop Removal",
+    " Garbage Disposal",
+    "Tank Cleaning",
+    "Hatch Cleaning",
+    " Chipping",
+    "Painting",
+  ];
   const data2 = [];
   return (
     <div className="container">
       <Navigation />
       <SingleService
         data={{
-          title: "1.4 Hardware Tools, Rope & Lifting Tackles",
+          title: "1.9 OTHER ITEMS",
           content: data,
           content2: data2,
-          img: "/images/Hardware tools rope and lifing tackles chittagong.jpg",
+          img: "/images/OTHER SERVICES SHIP CHANDLER.jpg",
         }}
       />
     </div>

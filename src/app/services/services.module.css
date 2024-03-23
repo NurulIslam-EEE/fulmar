@@ -45,6 +45,12 @@
 /* .services h5 {
   margin: 10px 0;
 } */
-.services h5:hover {
+
+.services h5 a {
+  color: black;
+}
+.services h5 a:hover {
   color: #0066a6;
+  cursor: pointer;
+  text-decoration: none;
 }
