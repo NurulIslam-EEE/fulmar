@@ -194,12 +194,54 @@ function Services() {
               <img src="/images/bullet.png" alt="" />
             </div>
             <h5>
-              <Link href="/services/provision-stores">
+              <Link href="/services/deck-&-engine-stores">
                 {" "}
                 Deck & Engine Stores{" "}
               </Link>
             </h5>
           </div>
+
+          <div className="d-flex align-items-center my-2">
+            {" "}
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
+            <h5>
+              <Link href="/services/cabin-store-&-safety-equipment">
+                {" "}
+                Cabin Store & Safety Equipment{" "}
+              </Link>
+            </h5>
+          </div>
+
+          <div className="d-flex align-items-center">
+            {" "}
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
+            <h5>
+              <Link href="/services/hardware-tools-rope-&-lifting-tackles">
+                {" "}
+                Hardware Tools, Rope & Lifting Tackles{" "}
+              </Link>
+            </h5>
+          </div>
+
+          <div className="d-flex align-items-center my-2">
+            {" "}
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
+            <h5>
+              <Link href="/services/marine-paints-&-chemicals">
+                Marine Paints & Chemicals{" "}
+              </Link>
+            </h5>
+          </div>
+
           <div className="d-flex align-items-center">
             {" "}
             <div className={styles.circle}>
@@ -207,12 +249,13 @@ function Services() {
               <img src="/images/bullet.png" alt="" />
             </div>{" "}
             <h5>
-              <Link href="/services/provision-stores">
+              <Link href="/services/stationery-&-computer-equipment">
                 {" "}
                 Stationery & Computer Equipment{" "}
               </Link>
             </h5>
           </div>
+
           <div className="d-flex align-items-center my-2">
             {" "}
             <div className={styles.circle}>
@@ -226,6 +269,7 @@ function Services() {
               </Link>
             </h5>
           </div>
+
           <div className="d-flex align-items-center my-2">
             {" "}
             <div className={styles.circle}>
@@ -233,67 +277,31 @@ function Services() {
               <img src="/images/bullet.png" alt="" />
             </div>
             <h5>
-              <Link href="/services/provision-stores">
-                {" "}
-                Cabin Store & Safety Equipment{" "}
+              <Link href="/services/pneumatic-tools">Pneumatic Tools </Link>
+            </h5>
+          </div>
+
+          <div className="d-flex align-items-center my-2">
+            {" "}
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
+            <h5>
+              <Link href="/services/other-services">Other Services </Link>
+            </h5>
+          </div>
+
+          {/* <div className="d-flex align-items-center my-2">
+            {" "}
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
+            <h5>
+              <Link href="/services/medical-store-&-hospital-equipment">
+                Hatch Cleaning{" "}
               </Link>
-            </h5>
-          </div>
-          <div className="d-flex align-items-center">
-            {" "}
-            <div className={styles.circle}>
-              {" "}
-              <img src="/images/bullet.png" alt="" />
-            </div>
-            <h5>
-              <Link href="/services/provision-stores">
-                {" "}
-                Hardware Tools, Rope & Lifting Tackles{" "}
-              </Link>
-            </h5>
-          </div>
-          <div className="d-flex align-items-center my-2">
-            {" "}
-            <div className={styles.circle}>
-              {" "}
-              <img src="/images/bullet.png" alt="" />
-            </div>
-            <h5>
-              <Link href="/services/provision-stores">
-                Marine Paints & Chemicals{" "}
-              </Link>
-            </h5>
-          </div>
-          <div className="d-flex align-items-center my-2">
-            {" "}
-            <div className={styles.circle}>
-              {" "}
-              <img src="/images/bullet.png" alt="" />
-            </div>
-            <h5>
-              <Link href="/services/provision-stores">
-                Sludge & Garbage Disposal{" "}
-              </Link>
-            </h5>
-          </div>
-          <div className="d-flex align-items-center my-2">
-            {" "}
-            <div className={styles.circle}>
-              {" "}
-              <img src="/images/bullet.png" alt="" />
-            </div>
-            <h5>
-              <Link href="/services/provision-stores">Tank Cleaning </Link>
-            </h5>
-          </div>
-          <div className="d-flex align-items-center my-2">
-            {" "}
-            <div className={styles.circle}>
-              {" "}
-              <img src="/images/bullet.png" alt="" />
-            </div>
-            <h5>
-              <Link href="/services/provision-stores">Hatch Cleaning </Link>
             </h5>
           </div>
           <div className="d-flex align-items-center my-2">
@@ -317,7 +325,7 @@ function Services() {
                 Chipping & Painting{" "}
               </Link>
             </h5>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

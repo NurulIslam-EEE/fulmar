@@ -3,15 +3,8 @@ import SingleService from "@/components/Services/SingleService";
 import React from "react";
 
 function page() {
-  const data = [
-    "Sludge & Slop Removal",
-    " Garbage Disposal",
-    "Tank Cleaning",
-    "Hatch Cleaning",
-    " Chipping",
-    "Painting",
-  ];
-  const data2 = [];
+  const data = ["Sludge & Slop Removal", " Garbage Disposal", "Tank Cleaning"];
+  const data2 = ["Hatch Cleaning", " Chipping", "Painting"];
   return (
     <div className="container">
       <Navigation />
