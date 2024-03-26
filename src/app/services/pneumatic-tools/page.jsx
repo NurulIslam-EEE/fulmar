@@ -23,7 +23,7 @@ function page() {
       <Navigation />
       <SingleService
         data={{
-          title: "1.8 PNEUMATIC & ELECTRICAL TOOLS",
+          title: "PNEUMATIC & ELECTRICAL TOOLS",
           content: data,
           content2: data2,
           img: "/images/Phenumatic Tools Chittagong.jpg",

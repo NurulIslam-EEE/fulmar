@@ -50,7 +50,7 @@ function Footer() {
           <strong>Fulmar Marine Services</strong>
 
           <p>
-            <MdEmail className={styles.icon} /> info@fmscgp.com
+            <MdEmail className={styles.icon} /> info@fulmarmarine.com
           </p>
 
           <p>

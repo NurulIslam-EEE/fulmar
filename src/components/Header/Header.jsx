@@ -30,7 +30,7 @@ function Header() {
             <p>
               {" "}
               <MdEmail className={styles.icon} />
-              info@fmscgp.com
+              info@fulmarmarine.com
             </p>
           </div>
         )}

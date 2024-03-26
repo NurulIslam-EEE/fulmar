@@ -10,7 +10,7 @@ function page() {
       <Navigation />
       <SingleService
         data={{
-          title: "1.9 OTHER ITEMS",
+          title: "OTHER ITEMS",
           content: data,
           content2: data2,
           img: "/images/OTHER SERVICES SHIP CHANDLER.jpg",

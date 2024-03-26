@@ -9,18 +9,35 @@ function SingleService({ data }) {
         <img width="100%" height="auto" src={data?.img} alt="" />
       </div>
 
-      <h5 className="my-4">{data?.title}</h5>
+      <h5 className="my-4 text-center">{data?.title}</h5>
 
       <div className="d-flex justify-content-between ms-2">
-        <div>
-          {data?.content?.map((x) => {
-            return <p key={x}>{x}</p>;
-          })}
+        <div className="d-flex justify-content-center w-50">
+          {" "}
+          <div>
+            {data?.content?.map((x) => {
+              return (
+                <p key={x} className="d-flex align-items-center">
+                  <div className="bullet-point"></div>
+                  {x}
+                </p>
+              );
+            })}
+          </div>
         </div>
-        <div>
-          {data?.content2?.map((x) => {
-            return <p key={x}>{x}</p>;
-          })}
+
+        <div className="d-flex justify-content-center w-50">
+          <div>
+            {data?.content2?.map((x) => {
+              return (
+                <p key={x} className="d-flex align-items-center">
+                  {" "}
+                  <div className="bullet-point"></div>
+                  {x}
+                </p>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

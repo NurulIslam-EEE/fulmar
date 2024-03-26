@@ -137,9 +137,9 @@ OTHER SERVICES */}
               : styles.nav_item
           }
         >
-          <Link href="/">
-            <p>CERTIFICATIONS</p>
-          </Link>
+          {/* <Link href="/"> */}
+          <p>CERTIFICATIONS</p>
+          {/* </Link> */}
         </div>
 
         <div

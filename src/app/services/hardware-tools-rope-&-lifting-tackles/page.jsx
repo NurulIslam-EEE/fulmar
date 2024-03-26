@@ -32,7 +32,7 @@ function page() {
       <Navigation />
       <SingleService
         data={{
-          title: "1.4 Hardware Tools, Rope & Lifting Tackles",
+          title: "Hardware Tools, Rope & Lifting Tackles",
           content: data,
           content2: data2,
           img: "/images/Hardware tools rope and lifing tackles chittagong.jpg",

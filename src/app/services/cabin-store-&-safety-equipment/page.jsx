@@ -37,7 +37,7 @@ function page() {
       <Navigation />
       <SingleService
         data={{
-          title: "1.3 CABIN STORE & SAFETY EQUIPMETS",
+          title: "CABIN STORE & SAFETY EQUIPMETS",
           content: data,
           content2: data2,
           img: "/images/Cabin Store and Safety Equipment Chittagong.jpg",

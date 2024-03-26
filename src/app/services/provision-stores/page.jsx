@@ -39,7 +39,7 @@ function page() {
 
       <SingleService
         data={{
-          title: "1.1 PROVISION STORES",
+          title: "PROVISION STORES",
           content: data,
           content2: data2,
           img: "/images/PROVISION SUPPLY CHITTAGONG.jpg",

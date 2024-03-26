@@ -32,7 +32,7 @@ function page() {
       <Navigation />
       <SingleService
         data={{
-          title: "1.7 MEDICAL STORE & WELFARE ITEMS",
+          title: "MEDICAL STORE & WELFARE ITEMS",
           content: data,
           content2: data2,
           img: "/images/Medical Store and Welfare Items Chittagong.jpg",

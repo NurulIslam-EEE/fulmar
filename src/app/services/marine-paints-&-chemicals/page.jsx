@@ -26,7 +26,7 @@ function page() {
       <Navigation />
       <SingleService
         data={{
-          title: "1.5 Marine Paints & Chemicals",
+          title: "Marine Paints & Chemicals",
           content: data,
           content2: data2,
           img: "/images/Marine Chemicals and Paints Chittagong.jpg",

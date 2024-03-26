@@ -12,7 +12,8 @@ function ContactUs() {
         <div className="contact-us">
           <h5>E-mail</h5>
           <p>
-            supply@fmscgp.com <br /> accounts@fmscgp.com <br /> info@fmscgp.com
+            supply@fulmarmarine.com <br /> accounts@fmscgp.com <br />{" "}
+            info@fulmarmarine.com
           </p>
           <h5>Telephone</h5>
           <p>+880-2333313030</p>

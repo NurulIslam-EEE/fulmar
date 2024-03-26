@@ -34,7 +34,7 @@ function page() {
 
       <SingleService
         data={{
-          title: "1.6 STATIONARY & COMPUTER EQUIPMENT",
+          title: "STATIONARY & COMPUTER EQUIPMENT",
           content: data,
           content2: data2,
           img: "/images/Stationnery and computer equipment chittagong.jpg",

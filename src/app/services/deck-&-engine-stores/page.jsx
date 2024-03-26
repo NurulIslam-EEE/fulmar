@@ -18,8 +18,6 @@ function page() {
     "Cutting Tools",
     "Pilot’s Ladder, Gangway",
     "Pipes, Tubes & Fittings",
-
-    "",
   ];
 
   const data2 = [
@@ -42,7 +40,7 @@ function page() {
       <Navigation />
       <SingleService
         data={{
-          title: "1.2 Deck & Engine Stores",
+          title: "Deck & Engine Stores",
           content: data,
           content2: data2,
           img: "/images/DECK STORE AND ENGINE STORE CHITTAGONG.jpg",
