@@ -1,7 +1,14 @@
 import Navigation from "@/components/Navigation/Navigation";
+import dynamic from "next/dynamic";
 
 import styles from "../services.module.css";
-import SingleService from "@/components/Services/SingleService";
+// import SingleService from "@/components/Services/SingleService";
+const SingleService = dynamic(
+  () => import("@/components/Services/SingleService"),
+  {
+    ssr: false,
+  }
+);
 
 function page() {
   const data = [

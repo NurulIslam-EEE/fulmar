@@ -1,18 +1,29 @@
 "use client";
 
-import Banner from "@/components/Banner/Banner";
+// import Banner from "@/components/Banner/Banner";
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
+import dynamic from "next/dynamic";
+const DynamicBanner = dynamic(() => import("@/components/Banner/Banner"), {
+  ssr: false,
+});
 
 function ContactUs() {
   return (
     <>
-      <Banner config={{ show: true, img: "/images/about-us-banner.jpg" }} />
+      <DynamicBanner
+        config={{
+          show: true,
+          banner: true,
+          img: "/images/CONTACT US.webp",
+        }}
+      />
+
       <div className="container">
-        {/* <Breadcrumbs data={{ one: "Contact us" }} /> */}
+        <Breadcrumbs data={{ one: "Contact us" }} />
         <div className="contact-us">
           <h5>E-mail</h5>
           <p>
-            supply@fulmarmarine.com <br /> accounts@fmscgp.com <br />{" "}
+            supply@fulmarmarine.com <br /> accounts@fulmarmarine.com <br />{" "}
             info@fulmarmarine.com
           </p>
           <h5>Telephone</h5>

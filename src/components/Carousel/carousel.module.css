@@ -48,6 +48,7 @@
 }
 
 .slide_card {
+  position: relative;
   width: 98%;
   height: auto;
 

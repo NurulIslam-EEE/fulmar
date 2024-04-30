@@ -1,16 +1,19 @@
 "use client";
-
-import Banner from "@/components/Banner/Banner";
+// import Banner from "@/components/Banner/Banner";
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
+import dynamic from "next/dynamic";
+const DynamicBanner = dynamic(() => import("@/components/Banner/Banner"), {
+  ssr: false,
+});
 
 function AboutUs() {
   return (
     <>
-      <Banner
+      <DynamicBanner
         config={{
           show: true,
           banner: true,
-          img: "/images/about-us-banner.jpg",
+          img: "/images/about-us-banner.webp",
         }}
       />
       <div className="about-us">

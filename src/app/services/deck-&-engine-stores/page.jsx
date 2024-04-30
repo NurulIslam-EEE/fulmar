@@ -1,9 +1,15 @@
 import Navigation from "@/components/Navigation/Navigation";
-import SingleService from "@/components/Services/SingleService";
-import React from "react";
+import dynamic from "next/dynamic";
+// import SingleService from "@/components/Services/SingleService";
+const SingleService = dynamic(
+  () => import("@/components/Services/SingleService"),
+  {
+    ssr: false,
+  }
+);
 
 function page() {
-  const data = [
+  const data2 = [
     "Working Cloths, Gloves, Boots",
     "Packing & Jointing",
     "Rigging Equipment",
@@ -20,7 +26,7 @@ function page() {
     "Pipes, Tubes & Fittings",
   ];
 
-  const data2 = [
+  const data = [
     "Valves & Cocks",
     "Governors, Hydraulics",
     "Separators",

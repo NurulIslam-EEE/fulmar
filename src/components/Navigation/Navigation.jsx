@@ -120,7 +120,7 @@ OTHER SERVICES */}
         </div>
         <div
           className={
-            pathname === "/service-ports/"
+            pathname === "/service-ports"
               ? styles.nav_item_active
               : styles.nav_item
           }
@@ -144,7 +144,7 @@ OTHER SERVICES */}
 
         <div
           className={
-            pathname === "/contact-us/"
+            pathname === "/contact-us"
               ? styles.nav_item_active
               : styles.nav_item
           }

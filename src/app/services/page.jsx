@@ -6,15 +6,24 @@ import Banner from "@/components/Banner/Banner";
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import Headline from "@/components/Services/Headline";
 import List from "@/components/Services/List";
+import dynamic from "next/dynamic";
 import Link from "next/link";
+const DynamicBanner = dynamic(() => import("@/components/Banner/Banner"));
 
 function Services() {
   return (
     <>
-      <Banner config={{ show: true, img: "/images/about-us-banner.jpg" }} />
+      <DynamicBanner
+        config={{
+          show: true,
+          banner: true,
+          img: "/images/OUR SERVICES.jpg",
+        }}
+      />
+
       <div className={styles.services}>
         <div className="container">
-          {/* <Breadcrumbs data={{ one: "Services" }} /> */}
+          <Breadcrumbs data={{ one: "Services" }} />
 
           {/* <Headline data={{ subTitle: "1.1 PROVISION STORES" }} /> */}
           {/* 
@@ -174,10 +183,11 @@ function Services() {
             data={{ subTitle: "1.3 CABIN STORE & SAFETY EQUIPMENTS" }}
           /> */}
 
-          <div className="d-flex align-items-center my-2">
-            <div className={styles.circle}>
+          <div className="d-flex align-items-center my-3">
+            {/* <div className={styles.circle}>
               <img src="/images/bullet.png" alt="" />
-            </div>{" "}
+            </div>{" "} */}
+            <div className="bullet-point"></div>
             <h5 className={styles.title}>
               {" "}
               <Link href="/services/provision-stores">
@@ -187,12 +197,13 @@ function Services() {
             </h5>
           </div>
 
-          <div className="d-flex align-items-center my-2">
+          <div className="d-flex align-items-center my-3">
             {" "}
-            <div className={styles.circle}>
+            {/* <div className={styles.circle}>
               {" "}
               <img src="/images/bullet.png" alt="" />
-            </div>
+            </div> */}
+            <div className="bullet-point"></div>
             <h5>
               <Link href="/services/deck-&-engine-stores">
                 {" "}
@@ -201,12 +212,13 @@ function Services() {
             </h5>
           </div>
 
-          <div className="d-flex align-items-center my-2">
+          <div className="d-flex align-items-center my-3">
             {" "}
-            <div className={styles.circle}>
+            {/* <div className={styles.circle}>
               {" "}
               <img src="/images/bullet.png" alt="" />
-            </div>
+            </div> */}
+            <div className="bullet-point"></div>
             <h5>
               <Link href="/services/cabin-store-&-safety-equipment">
                 {" "}
@@ -217,10 +229,11 @@ function Services() {
 
           <div className="d-flex align-items-center">
             {" "}
-            <div className={styles.circle}>
+            {/* <div className={styles.circle}>
               {" "}
               <img src="/images/bullet.png" alt="" />
-            </div>
+            </div> */}
+            <div className="bullet-point"></div>
             <h5>
               <Link href="/services/hardware-tools-rope-&-lifting-tackles">
                 {" "}
@@ -229,12 +242,13 @@ function Services() {
             </h5>
           </div>
 
-          <div className="d-flex align-items-center my-2">
+          <div className="d-flex align-items-center my-3">
             {" "}
-            <div className={styles.circle}>
+            {/* <div className={styles.circle}>
               {" "}
               <img src="/images/bullet.png" alt="" />
-            </div>
+            </div> */}
+            <div className="bullet-point"></div>
             <h5>
               <Link href="/services/marine-paints-&-chemicals">
                 Marine Paints & Chemicals{" "}
@@ -244,10 +258,11 @@ function Services() {
 
           <div className="d-flex align-items-center">
             {" "}
-            <div className={styles.circle}>
+            {/* <div className={styles.circle}>
               {" "}
               <img src="/images/bullet.png" alt="" />
-            </div>{" "}
+            </div>{" "} */}
+            <div className="bullet-point"></div>
             <h5>
               <Link href="/services/stationery-&-computer-equipment">
                 {" "}
@@ -256,43 +271,46 @@ function Services() {
             </h5>
           </div>
 
-          <div className="d-flex align-items-center my-2">
+          <div className="d-flex align-items-center my-3">
             {" "}
-            <div className={styles.circle}>
+            {/* <div className={styles.circle}>
               {" "}
               <img src="/images/bullet.png" alt="" />
-            </div>
+            </div> */}
+            <div className="bullet-point"></div>
             <h5>
-              <Link href="/services/provision-stores">
+              <Link href="/services/medical-store-&-hospital-equipment">
                 {" "}
                 Medical Store & Hospital Equipment{" "}
               </Link>
             </h5>
           </div>
 
-          <div className="d-flex align-items-center my-2">
+          <div className="d-flex align-items-center my-3">
             {" "}
-            <div className={styles.circle}>
+            {/* <div className={styles.circle}>
               {" "}
               <img src="/images/bullet.png" alt="" />
-            </div>
+            </div> */}
+            <div className="bullet-point"></div>
             <h5>
               <Link href="/services/pneumatic-tools">Pneumatic Tools </Link>
             </h5>
           </div>
 
-          <div className="d-flex align-items-center my-2">
+          <div className="d-flex align-items-center my-3">
             {" "}
-            <div className={styles.circle}>
+            {/* <div className={styles.circle}>
               {" "}
               <img src="/images/bullet.png" alt="" />
-            </div>
+            </div> */}
+            <div className="bullet-point"></div>
             <h5>
               <Link href="/services/other-services">Other Services </Link>
             </h5>
           </div>
 
-          {/* <div className="d-flex align-items-center my-2">
+          {/* <div className="d-flex align-items-center my-3">
             {" "}
             <div className={styles.circle}>
               {" "}
@@ -304,7 +322,7 @@ function Services() {
               </Link>
             </h5>
           </div>
-          <div className="d-flex align-items-center my-2">
+          <div className="d-flex align-items-center my-3">
             {" "}
             <div className={styles.circle}>
               {" "}
@@ -314,7 +332,7 @@ function Services() {
               <Link href="/services/provision-stores">Hatch Cover Repair </Link>
             </h5>
           </div>
-          <div className="d-flex align-items-center my-2">
+          <div className="d-flex align-items-center my-3">
             {" "}
             <div className={styles.circle}>
               {" "}

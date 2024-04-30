@@ -1,12 +1,21 @@
-import React from "react";
-
 import style from "./services.module.css";
+import Image from "next/image";
 
 function SingleService({ data }) {
   return (
     <div>
       <div className={style.service_img}>
-        <img width="100%" height="auto" src={data?.img} alt="" />
+        <Image
+          src={data?.img}
+          width={960}
+          height={369}
+          sizes="100vw"
+          style={{ width: "100%", height: "auto" }}
+          // priority={true}
+          // loader="eager"
+          alt="Service Image"
+        />
+        {/* <img width="100%" height="auto" src={data?.img} alt="" /> */}
       </div>
 
       <h5 className="my-4 text-center">{data?.title}</h5>

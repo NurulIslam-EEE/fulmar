@@ -17,6 +17,7 @@
   margin-bottom: 10px;
 }
 .association {
+  position: relative;
   overflow-x: scroll;
   display: flex;
   align-items: center;

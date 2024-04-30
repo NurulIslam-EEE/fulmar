@@ -6,6 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
 import useWindowDimensions from "@/hooks/useWindowDimensions";
 import MobileNav from "../Navigation/MobileNav";
+import Image from "next/image";
 
 function Header() {
   const { height, width } = useWindowDimensions();
@@ -14,14 +15,23 @@ function Header() {
     <div className={styles.header}>
       <div className={styles.content + " container"}>
         <Link href="/">
-          <div className={styles.logo}>
-            <img src="/images/logo4.png" alt="" />
-          </div>
+          <p className={styles.logo}>
+            {/* <img src="/images/logo4.png" alt="" /> */}
+
+            <Image
+              // fill={true}
+              width={1624}
+              height={356}
+              src="/images/logo4.png"
+              alt=""
+              style={{ width: "100%", height: "auto" }}
+            />
+          </p>
         </Link>
 
         {width < 821 && <MobileNav />}
         {width > 820 && (
-          <div className={styles.contactinfo}>
+          <h3 className={styles.contactinfo}>
             <p>
               {" "}
               <FaPhoneAlt className={styles.icon} />
@@ -32,7 +42,7 @@ function Header() {
               <MdEmail className={styles.icon} />
               info@fulmarmarine.com
             </p>
-          </div>
+          </h3>
         )}
       </div>
     </div>

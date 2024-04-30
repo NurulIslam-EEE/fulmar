@@ -4,6 +4,7 @@ import CarouselComp from "../Carousel/CarouselComp";
 import Navigation from "../Navigation/Navigation";
 
 import styles from "./Banner.module.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Banner({ config }) {
   return (
@@ -14,8 +15,16 @@ function Banner({ config }) {
         {config?.banner && config?.show && (
           <>
             <div className={styles.bannerImg}>
-              {/* <Image src={config?.img} sizes="100vw" fill /> */}
-              <img src={config?.img} alt="" />
+              {/* <img src={config?.img} alt="" /> */}
+              <Image
+                src={config?.img}
+                width={960}
+                height={320}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                alt="Banner Image"
+                // priority={true}
+              />
             </div>
           </>
         )}

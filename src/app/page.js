@@ -1,8 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Banner from "@/components/Banner/Banner";
-// import HomeContent from "@/components/Home/HomeContent";
+"use client";
 import dynamic from "next/dynamic";
+import styles from "./page.module.css";
+// import Banner from "@/components/Banner/Banner";
+const DynamicBanner = dynamic(() => import("@/components/Banner/Banner"), {
+  ssr: false,
+});
+// import HomeContent from "@/components/Home/HomeContent";
+
 const HomeContent = dynamic(() => import("@/components/Home/HomeContent"), {
   ssr: false,
 });
@@ -10,7 +14,7 @@ const HomeContent = dynamic(() => import("@/components/Home/HomeContent"), {
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Banner config={{ banner: true }} />
+      <DynamicBanner config={{ banner: true }} />
       <HomeContent />
     </main>
   );
