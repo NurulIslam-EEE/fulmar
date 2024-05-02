@@ -1,7 +1,6 @@
 "use client";
 
 import styles from "./services.module.css";
-
 import Banner from "@/components/Banner/Banner";
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import Headline from "@/components/Services/Headline";

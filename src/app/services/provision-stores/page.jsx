@@ -1,3 +1,4 @@
+"use client";
 import Navigation from "@/components/Navigation/Navigation";
 import dynamic from "next/dynamic";
 
